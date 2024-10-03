@@ -32,16 +32,16 @@ number_of_tosses = 20
 
 ### Sample Output
 ```
-───────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
 	Total Result with 20 tosses
-───────────────────────────────────────────────────────────────
-Number of players:                 100,000,000
-Total number of coin tosses:       2,000,000,000
-Total heads tosses:                1,000,123,852 (50.00619%)
-Total tails tosses:                999,876,148 (49.99380%)
-Players only tossed heads:         98 (Probability: 0.000098%)
-Players only tossed tails:         102 (Probability: 0.000102%)
-Program runtime:                   40:34 min
+────────────────────────────────────────────────────────────
+Number of players:              100,000,000
+Total number of coin tosses:    2,000,000,000
+Total heads tosses:             1,000,123,852 (50.00619%)
+Total tails tosses:             999,876,148 (49.99380%)
+Players only tossed heads:      98 (Probability: 0.000098%)
+Players only tossed tails:      102 (Probability: 0.000102%)
+Program runtime:                40:34 min
 ```
 
 ## Code Explanation
