@@ -1,3 +1,7 @@
+# This program only calculates the probabilities for players tossing only heads. It does not perform the random coin tosses.
+# Because it does not actually carry out the coin tosses in the background, it is much faster than the coin_toss.py script.
+# I use it for fast calculations with large numbers, to get an impression how the probabilities are (and not tormenting my poor Macbook).
+
 import decimal
 
 # Set the precision for Decimal to 110 digits (over 100 digits to also cover intermediate steps)
