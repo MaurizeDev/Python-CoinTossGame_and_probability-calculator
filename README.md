@@ -35,7 +35,6 @@ number_of_tosses = 20
 ───────────────────────────────────────────────────────────────
 	Total Result with 20 tosses
 ───────────────────────────────────────────────────────────────
-
 Number of players:                 100,000,000
 Total number of coin tosses:       2,000,000,000
 Total heads tosses:                1,000,123,852 (50.00619%)
