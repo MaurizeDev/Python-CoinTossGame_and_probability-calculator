@@ -41,7 +41,7 @@ Total heads tosses:             1,000,123,852 (50.00619%)
 Total tails tosses:             999,876,148 (49.99380%)
 Players only tossed heads:      98 (Probability: 0.000098%)
 Players only tossed tails:      102 (Probability: 0.000102%)
-Program runtime:                40:34 min
+Program runtime:                30:34 min
 ```
 
 ## Code Explanation
