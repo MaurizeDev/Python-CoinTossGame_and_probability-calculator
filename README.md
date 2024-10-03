@@ -54,7 +54,7 @@ The core classes and functions are as follows:
 
 ## Performance Considerations
 
-Running the simulation for millions of players and tosses can be resource-intensive. The program includes performance metrics like runtime to help optimize for larger simulations.
+Running the simulation for hundreds of millions of players and tosses can be resource-intensive. The program includes performance metrics like runtime to help optimize for larger simulations.
 
 ### Example Performance on MacBook Air M1:
 - 1M Players, 20 Tosses: ~7 seconds
