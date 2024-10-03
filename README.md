@@ -3,7 +3,7 @@
 ## Introduction
 This project simulates a theoretical scenario inspired by the stock market: Are successful investors like Warren Buffett and Ray Dalio exceptionally skilled, or could their success simply be a statistical outlier in a large population? 
 
-In large populations, even highly improbable events become almost certain. The goal of this program is to simulate a tournament where millions of people toss coins, and we observe how many toss only heads, highlighting the inevitability of statistical outliers.
+In large populations, even highly improbable events become almost certain. The goal of this program is to simulate a tournament where millions of people toss coins, and we observe how many people toss only heads, highlighting the inevitability of statistical outliers.
 
 ## Concept
 The core idea is based on the statistical probability of a coin landing on heads or tails. If a large enough population participates in a coin toss tournament, it is statistically inevitable that some participants will always toss heads (or tails), despite the low probability of this event happening. Tossing "just" 7 times heads in a row for a single person is almost impossible with a probability of below 1%. And it decreases exponentially with every additional toss. 20 times heads in a row has a 0.000095% chance (1 in 1 million).
