@@ -163,9 +163,9 @@ def divider(headline):
     Args:
         headline (str): The text to display in the center of the divider.
     """
-    print("\n" + 70 * "─")
+    print("\n" + 60 * "─")
     print("\t" + headline)
-    print(70 * "─" + "\n")
+    print(60 * "─")
 
 
 ##################################################################
