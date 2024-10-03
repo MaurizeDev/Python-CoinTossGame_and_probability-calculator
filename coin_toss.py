@@ -9,7 +9,7 @@
 # Assumption: If the entire population tosses coins in a tournament against each other, there will statistically be
 # a winner who always tossed heads. For example, with 300 million people, after 30 tosses, there ist still a
 # 25% chance, someone tossed 30 times heads in a row. The probability of tossing 30 times in row the same side is about
-# 0,0000000931323 % (1 in a billion). Yet in large populations it is almost certain, that it will occur.
+# 0,0000000931323 % (1 in over 1 billion). Yet in large populations it is almost certain, that it will occur.
 
 # This program simulates the coin tosses with a given amount of players and tosses and sums up the result.
 
