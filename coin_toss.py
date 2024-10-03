@@ -2,7 +2,8 @@
 
 # Theory from the stock market world: We look at winners like Warren Buffett, Ray Dalio, etc., and assume their
 # success is due to their skills. But statistically, there must be these outliers. When billions of people are/were
-# active in the stock market, it is inevitable that some have made gigantic profits. And consequently, some have only lost.
+# active in the stock market, it is statistically inevitable that some have made gigantic profits. And consequently,
+# some have only lost countless times in a row.
 
 # So, is it statistically unavoidable and therefore luck? And even if it is statistically unavoidable, do you only
 # get into this position with luck or skill? -> Chicken/Egg problem
