@@ -8,7 +8,7 @@ In large populations, even highly improbable events become almost certain. The g
 ## Concept
 The core idea is based on the statistical probability of a coin landing on heads or tails. If a large enough population participates in a coin toss tournament, it is statistically inevitable that some participants will always toss heads (or tails), despite the low probability of this event happening. This project demonstrates that even with an incredibly low probability (such as 0.0000001%, or 1 in a billion) of tossing 30 times heads in a row, someone will eventually toss heads consistently in a large enough population.
 
-For example, with 300 million people tossing coins 30 times, there is still a 25% chance that someone will have tossed 30 heads in a row. The program simulates coin tosses for a given number of players and tosses, and summarizes the results.
+For example, with 330 million people (population of USA) tossing coins 30 times, there is still a 26% chance that someone will have tossed 30 heads in a row. The program simulates coin tosses for a given number of players and tosses, and summarizes the results.
 
 ## Features
 - Simulates a specified number of players tossing coins a given number of times
