@@ -11,11 +11,11 @@ The core idea is based on the statistical probability of a coin landing on heads
 For example, with 300 million people tossing coins 30 times, there is still a 25% chance that someone will have tossed 30 heads in a row. The program simulates coin tosses for a given number of players and tosses, and summarizes the results.
 
 ## Features
-- Simulates a specified number of players tossing coins a given number of times.
-- Tracks how many players tossed only heads or only tails.
-- Displays results for individual players or overall statistics.
-- Uses Python's `random` module to simulate unbiased coin tosses.
-- Displays runtime and performance metrics.
+- Simulates a specified number of players tossing coins a given number of times
+- Tracks how many players tossed only heads or only tails
+- Displays results for individual players or overall statistics
+- Uses Python's `random` module to simulate unbiased coin tosses
+- Displays runtime and performance metrics
 
 ## Usage
 
@@ -44,3 +44,25 @@ Players only tossed heads:         98 (Probability: 0.000098%)
 Players only tossed tails:         102 (Probability: 0.000102%)
 Program runtime:                   40:34 min
 ```
+
+## Code Explanation
+
+The core classes and functions are as follows:
+
+- **Player**: Represents a player who tosses a coin. Each player tracks their heads and tails counts and whether they tossed only heads or only tails
+- **play_with_multiple_players(number_of_players, number_of_tosses)**: Simulates a coin toss game for a specified number of players and tosses
+- **total_score(player_list, start_time, number_of_tosses)**: Displays the total result of the coin toss game, including heads/tails counts and percentages
+
+## Performance Considerations
+
+Running the simulation for millions of players and tosses can be resource-intensive. The program includes performance metrics like runtime to help optimize for larger simulations.
+
+### Example Performance on MacBook Air M1:
+- 1M Players, 20 Tosses: ~7 seconds
+- 10M Players, 20 Tosses: ~2 minutes
+- 85M Players, 20 Tosses: ~30 minutes
+
+## Potential Improvements
+- Implement parallel processing to handle larger populations more efficiently
+- Add visualization for the results (e.g., probability distributions)
+- Extend the functionality for more complex coin toss scenarios
